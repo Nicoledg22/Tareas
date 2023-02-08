@@ -1,0 +1,266 @@
+/* Created on : 3 feb 2023, 22:34:39
+    Author     : nicolediazguzman
+*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family:  sans-serif;
+    padding: 80px 20px 0 0;
+}
+
+.header {
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.aside {
+    background-color: lightpink;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 20px;
+    bottom: 20px;
+    width: 20%;
+}
+
+.conte-aside{
+    padding: 20px;
+}
+
+.conte-sec{
+    padding: 20px 0;
+    text-align: center;
+    font-family:  serif;
+}
+
+.contenido {
+    background-color:white;
+    position: fixed;
+    top: 80px;
+    left: 20%;
+    right: 0;
+    bottom: 20px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color: lightpink;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    color: black;
+    font-family: serif;
+    text-align: center;
+}
+
+article p {
+    color: black;
+}
+
+#noticia {
+    color: white;
+    font-family:initial;
+    text-align: center;
+}
+
+.titulo {
+    color:violet;
+}
+
+.titulo-pag{
+    color:lightpink;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.textoCentrado{
+    text-align: center;
+}
+
+.textoDerecha{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd){ /*"odd"=impar*/
+    background-color: green;
+}
+
+tbody tr:nth-child(even){
+    background-color: white;
+}
+
+/*Comienza la definicion del menu*/
+.nav{
+    display: flex;
+    justify-content: space-between; /*Espacio entre ellos*/
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.nav-link{
+    color: lightpink;
+    text-align: center;
+    text-decoration: none; /*subrayado quitarlo*/
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 90px;
+    
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.nav-menu-link:hover {
+    background-color:black;
+    color:white;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold; /*Letra gruesa*/
+    padding: 0 20px;
+    line-height: 80px;
+}
+
+.descuento{
+    font-family: fantasy;
+    padding: 15px 0;
+}
+
+.h2-tit{
+    padding: 40px;
+    font-size:30px;
+}
+
+.titulo-index{
+    font-weight: 600;
+    color: lightpink;
+    letter-spacing: .3rem;
+    text-align: center;
+}
+
+.conte-sec{
+    text-align: center;
+
+}
+
+.contenido-gif{
+    padding: 50px;
+    margin-right: 90px;
+    margin-left: 280px;
+}
+
+.imagenes{
+    width: 800px;
+
+}
+
+.pa{
+    text-align: center;
+    padding: 30px;
+}
+
+.img-pasta{
+    padding: 40px;
+
+}
+
+.video{
+    padding: 30px;
+
+}
+
+.seccion-gif{
+    margin-right: 50px;
+    margin-left: 550px;
+}
+
+.columna{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 122.3rem;
+    padding: 0 15.0rem;
+}
+
+.fotos{
+    margin: 20px 20px;
+    float:left;
+    width: 400px;
+
+}
+
+.r img{
+    width: 50%;
+    height: auto;
+
+}
+
+.info{
+    text-align: center;
+    padding:15px;
+}
+
+.titulo-sesion{
+    font-weight: 600;
+    color: lightpink;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.titulo-productos{
+    color:lightpink;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.inicio-ses{
+    background-color: pink;
+    font-family:  monospace;
+    width: 20%;
+    padding:7px;
+    margin: 50px 460px;
+}
+
+.registro{
+    background-color:pink;
+    position: fixed;
+    width: 60%;
+    top: 200px;
+    left: 280px;
+    right: 70px;
+    bottom: 290px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.subrayar{
+    text-decoration: line-through;
+}

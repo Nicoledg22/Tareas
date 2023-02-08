@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--Registro-->
+<html lang="es">
+    <head>
+        <title>Inicio Sesión</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a class="logo nav-link" href="index.html">SuperOrquidea</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="rebajas.html">Rebajas</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="higiene.html">Higiene</a></li>  
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="abarrotes.html">Abarrotes</a></li>  
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="bebidas.html">Bebidas</a></li>  
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="lacteos.html">Lácteos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="frutas.html">Frutas</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="carniceria.html">Carniceria</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="mascotas.html">Mascotas</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <section class="registro">
+            <article>
+                <h3>Registro de Clientes</h3>
+                <form action="/cliente/insertar">
+                    <input type="hidden" name="id" value="5" />
+                    <fieldset>
+                        <label>Nombre</label>
+                        <input type="text" 
+                               name="nombre" 
+                               value="" 
+                               size="40" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Clave</label>
+                        <input type="password" 
+                               name="clave" 
+                               value="" 
+                               size="10" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Teléfono</label>
+                        <input type="number" 
+                               name="teléfono"
+                               min="10"
+                               value="" />
+                    </fieldset>
+                    <fieldset>
+                        <label>Correo electrónico</label>
+                        <input type="text" 
+                               name="correo" 
+                               value=""
+                               size="40"/>
+                    </fieldset>
+                    <input type="submit" value="Enviar" />
+                </form>
+            </article>
+        </section>
+        <footer class="footer">
+            Desarrollos Tecnológicos Coronado 2023 &COPY;
+        </footer>
+    </body>
+</html>
